@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* position: relative; */
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    background: #0019FF;
+
+    padding: 3%;
+    text-align: center;
+    color: white;
+
+    font-family: "roboto-slab", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#settings {
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    padding: 10px 0;
+
+    display: flex;
+
+    font-family: "roboto-slab", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.format {
+    width: 100%;
+}
+
+.account {
+    display: flex;
+}
+
+.account h4 {
+    padding-top: 10%;
+    padding-right: 5px;
+    font-size: 13px;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+footer {
+    background: #0019FF;
+    width: 100%;
+    height: 50px;
+    /* position: absolute;
+    bottom: 0; */
+}
